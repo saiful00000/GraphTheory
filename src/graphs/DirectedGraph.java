@@ -24,6 +24,7 @@ public class DirectedGraph {
 
     // method used by dfs
     public void DFSUtil(int v, boolean[] visited) {
+
         visited[v] = true;
         System.out.print(v +" -> ");
         Iterator<Integer> iterator = adjList[v].listIterator();
